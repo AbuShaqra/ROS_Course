@@ -1,0 +1,17 @@
+1- source <path_to_ROS_workspace>/devel/setup.bash  #Setup ROS enviroment in a new terminal
+
+2- rosnode list  				    #List currently running nodes on the terminal
+
+3- rqt_graph  					    #Visual representation of the ROS "node graph"
+
+4- rosnode info <node name>			    #Node specific information on the terminal
+
+5- roslaunch <folder name containing launch file> <name of launch file.launch>
+
+6- roscore                                          #Start running the ROS system (run nodes)
+
+7- rostopic list				    #List of topics that are being exchanged between active nodes
+
+8- rostopic info <topic name>			    #Topic data structure
+
+9- rostopic echo <topic name>			    #Print topic contents on the terminal
